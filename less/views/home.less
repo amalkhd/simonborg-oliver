@@ -1,0 +1,92 @@
+// main: ../page.less
+.home-banner {
+  background-image: url("@{base-url}banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.four-block.details {
+  img {
+    margin: 0 auto;
+    width: 250px;
+  }
+  .det-1 {
+    .mb-0;
+    .oswal;
+    .bold;
+    font-size: 28px;
+    .upper;
+    span {
+      &:first-child {
+        color: @dark-pink;
+      }
+      &:nth-child(2) {
+        color: @dark-blue;
+      }
+      &:last-child {
+        color: @dark-pink;
+      }
+    }
+  }
+  .head-white {
+    .oswal;
+    color: @white;
+    font-size: 32px;
+    .upper;
+  }
+  .venue {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+    padding: 10px 0;
+    width: 270px;
+    margin: 0 auto;
+    border: 2px solid @white;
+    span {
+      &:last-child {
+        color: @dark-pink;
+        font-weight: 700;
+      }
+    }
+  }
+  .time {
+    .mt-10;
+    .oswal;
+    font-size: 16px;
+    span {
+      &:first-child {
+        color: @white;
+      }
+      &:last-child {
+        color: @black;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.four-block {
+  .register {
+    .robo;
+    background-color: fade(@white, 50%);
+    padding: 50px 30px;
+    margin: 0 20px;
+    .btn {
+      background-color: @btn-violet;
+      color: @white;
+      font-weight: 500;
+      font-size: 16px;
+      padding: 8px 20px;
+      margin-top: 20px;
+    }
+    .form-group {
+      .placeholder;
+      .form-control {
+        height: 40px;
+        border-radius: 0;
+        border: none;
+      }
+    }
+  }
+}

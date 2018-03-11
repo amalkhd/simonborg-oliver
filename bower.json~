@@ -1,0 +1,23 @@
+{
+  "name": "base",
+  "description": "UI template project for Base",
+  "main": "index.js",
+  "authors": [
+    "Amal kriz <amalkhd@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "bootstrap": "3.3.4",
+      "jquery": "~2.1.4",
+      "imagesloaded": "^4.1.1"
+  }
+}
