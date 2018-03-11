@@ -4,8 +4,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  @media (max-width: 767px) {
+    height: 950px;
+  }
 }
-
+.four-block {
+  @media (min-width: 1200px) {
+    margin-top: 150px;
+  }
+  @media (min-width: 992px) {
+    margin-top: 100px;
+  }
+}
 .four-block.details {
   img {
     margin: 0 auto;
@@ -68,9 +78,16 @@
 
 .four-block {
   .register {
+    position: relative;
+    @media (min-width: 768px) {
+      bottom: 20px;
+    }
     .robo;
     background-color: fade(@white, 50%);
-    padding: 50px 30px;
+    padding: 20px;
+    @media (min-width: 992px) {
+      padding: 50px 30px;
+    }
     margin: 0 20px;
     .btn {
       background-color: @btn-violet;
@@ -78,9 +95,16 @@
       font-weight: 500;
       font-size: 16px;
       padding: 8px 20px;
-      margin-top: 20px;
+      @media (min-width: 992px) {
+        margin-top: 20px;
+      }
     }
     .form-group {
+      @media (min-width: 768px) and (max-width: 991px) {
+        width: 100%/3;
+        float: left;
+        padding-right: 10px;
+      }
       .placeholder;
       .form-control {
         height: 40px;
@@ -96,8 +120,16 @@
   height: 478px;
   background-size: contain;
   background-repeat: no-repeat;
+  @media (max-width: 767px) {
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+  }
   .content {
-    margin-top: 50px;
+    margin-top: 20px;
+    @media (min-width: 992px) {
+      margin-top: 50px;
+    }
     .xhale {
       color: @dark-blue;
       font-style: italic;
@@ -107,6 +139,9 @@
       .oswal;
       // .upper;
       font-size: 28px;
+      @media (max-width: 767px) {
+        font-size: 18px;
+      }
       .vio {
         color: @dark-blue;
       }
@@ -121,6 +156,9 @@
       .oswal;
       font-size: 48px;
       position: relative;
+      @media (max-width: 767px) {
+        font-size: 28px;
+      }
       span {
         &:first-child {
           color: #38a8d7;
@@ -157,18 +195,32 @@
     color: @white;
     .oswal;
     position: absolute;
-    top: 13px;
-    font-size: 32px;
+    top: 8px;
     left: 0;
     right: 0;
     text-align: center;
+    font-size: 18px;
+    @media (min-width: 992px) {
+      font-size: 32px;
+      top: 13px;
+    }
   }
 }
 
 .ws-content {
   margin-top: 60px;
+  .divider {
+    margin: 40px 0;
+    float: left;
+    width: 100%;
+    img {
+      float: right;
+    }
+  }
+  &.right {
+    text-align: right;
+  }
   .content {
-    margin-bottom: 40px;
     p {
       .robo;
       &.head {
@@ -190,10 +242,18 @@
     .robo;
     color: #dd4763;
     font-weight: 900;
-    font-size: 34px;
     border: 2px solid;
     padding: 15px 10px;
     margin: 60px 20px;
+    font-size: 24px;
+    @media (min-width: 992px) {
+      font-size: 34px;
+    }
+    @media (max-width: 767px) {
+      font-size: 18px;
+      padding: 15px 0;
+      margin: 20px 0;
+    }
   }
 }
 
@@ -211,5 +271,11 @@
         .mb-0;
       }
     }
+  }
+}
+
+.person-pad {
+  @media (min-width: 992px) {
+    padding: 0 !important;
   }
 }

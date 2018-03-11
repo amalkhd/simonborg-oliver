@@ -5,10 +5,10 @@
             <div class="row">
                 <div class="container" style="margin-top:74px;">
                     <div class="row">
-                        <div class="col-md-4 four-block">
+                        <div class="mt-10 col-sm-6 col-md-4 four-block person-pad">
                             <img src="img/person.png" alt="" class="img-responsive">
                         </div>
-                        <div class="col-sm-4 four-block details">
+                        <div class="mt-10 col-sm-6 col-md-4 four-block details">
                             <img src="img/logo-black.png" alt="" class="img-responsive">
                             <div class="content text-center">
                                 <p class="det-1">
@@ -36,7 +36,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-4 four-block ">
+                        <div class="col-sm-12 col-md-4 four-block ">
                             <div class="register text-center">
                                 <form action="">
                                     <div class="form-group">
@@ -103,11 +103,14 @@
                     <div class="ws-content">
                         <div class="content">
                             <p class="head">Workshop 1</p>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, adipisci.</p>
+                            <p class="desc">Safe Accessible and Effective Spinal Movements for Fitness, Energy, Health and Longevity</p>
+                        </div>
+                        <div class="divider">
+                            <img src="img/cline-left.png" alt="" class="img-responsive">
                         </div>
                         <div class="content">
-                            <p class="head">Workshop 1</p>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, adipisci.</p>
+                            <p class="head">Workshop 2</p>
+                            <p class="desc">Natural Posture, Movement and Breathing for Fitness, Energy, Health and Longevity</p>
                         </div>
                     </div>
                 </div>
@@ -138,14 +141,18 @@
         <div class="col-sm-6">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
-                    <div class="ws-content">
+                    <div class="ws-content right">
                         <div class="content">
-                            <p class="head">Workshop 1</p>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, adipisci.</p>
+                            <p class="head">Workshop 3</p>
+                            <p class="desc">Physical Yoga by Circulating Energy and Loving information through the body</p>
+                        </div>
+                        <div class="divider">
+                            <img src="img/cline-right.png" alt="" class="img-responsive">
                         </div>
                         <div class="content">
-                            <p class="head">Workshop 1</p>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, adipisci.</p>
+                            <p class="head">Workshop 4</p>
+                            <p class="desc">Posture, Movement and Breathing for Manifesting Physical Power with Meditative Inner Peace.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -155,7 +162,7 @@
 
     </div>
     <div class="row">
-        <div class="col-sm-6 col-sm-offset-3 certif">
+        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 certif">
             <p class="text-center">Certificate of Participation Given</p>
         </div>
     </div>
