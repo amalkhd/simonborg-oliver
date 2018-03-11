@@ -58,5 +58,140 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 circle-wrap">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="text-center content">
+                        <p class="xhale">Xhale asia brings you</p>
+                        <p class="best">
+                            <span class="vio">The best in</span>
+                            <span class="green">Yoga</span>
+                            <span class="grey">&amp;</span>
+                            <span class="green">Wellness training</span>
+                        </p>
+                        <p class="early">
+                            <span>Early Bird:</span>
+                            <span>RM1,699</span>
+                            <img src="img/rectangle.png" alt="" class="img-responsive">
+                        </p>
+                        <p class="normal">
+                            <span>Normal Price:</span>
+                            <span>RM2,399</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 no-padding pink-head">
+            <img src="img/pink-rect.png" alt="" class="img-responsive">
+            <p>Saturday 7
+                <sup>th</sup>
+                April 2018
+            </p>
+        </div>
+        <div class="col-sm-6">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="ws-content">
+                        <div class="content">
+                            <p class="head">Workshop 1</p>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, adipisci.</p>
+                        </div>
+                        <div class="content">
+                            <p class="head">Workshop 1</p>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, adipisci.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-6">
+            <img src="img/cow-face.png" alt="" class="img-responsive">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+
+        </div>
+        <div class="col-sm-6 no-padding pink-head">
+            <img src="img/red-rect.png" alt="" class="img-responsive">
+            <p>Saturday 8
+                <sup>th</sup>
+                April 2018
+            </p>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="img/dand.png" alt="" class="img-responsive">
+        </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="ws-content">
+                        <div class="content">
+                            <p class="head">Workshop 1</p>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, adipisci.</p>
+                        </div>
+                        <div class="content">
+                            <p class="head">Workshop 1</p>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, adipisci.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3 certif">
+            <p class="text-center">Certificate of Participation Given</p>
+        </div>
+    </div>
+    <div class="row">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <table class="table partners">
+                        <tr>
+                            <td>
+                                <p>Organised By:</p>
+                            </td>
+                            <td>
+                                <img src="img/Xhale.png" alt="" class="img-responsive">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-sm-8">
+                    <table class="table partners">
+                        <tr>
+                            <td>
+                                <p>In collaboration With:</p>
+                            </td>
+                            <td>
+                                <img src="img/murfest.png" alt="" class="img-responsive">
+                            </td>
+                            <td>
+                                <img src="img/yoga.png" alt="" class="img-responsive">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <?php include 'layout/footer.php'?>

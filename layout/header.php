@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="home.php">
-            <img src="img/logo-black.png" class="img-responsive hidden-xs">
+            <img src="img/logo-black.png" class="img-responsive">
           </a>
         </div>
         <div class="collapse navbar-collapse navbar-right" id="mobile-view">
