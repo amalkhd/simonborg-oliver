@@ -74,3 +74,35 @@ footer {
     }
   }
 }
+
+.float-btn.btn {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  .robo;
+  background-color: @btn-violet;
+  color: @white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 33px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 10px fade(@btn-violet, 50%);
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 10px lighten(@btn-violet, 5%);
+    color: @white;
+    background-color: lighten(@btn-violet, 5%);
+  }
+  &:focus,
+  &:active {
+    outline: 0 !important;
+  }
+  &.view {
+    visibility: visible;
+    opacity: 1;
+  }
+}

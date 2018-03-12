@@ -1,3 +1,4 @@
+<button class="btn btn-default float-btn">Register</button>
 <footer>
     <div class="container">
         <div class="row">

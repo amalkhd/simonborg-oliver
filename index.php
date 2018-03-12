@@ -63,7 +63,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="text-center content">
-                        <p class="xhale">Xhale asia brings you</p>
+                        <p class="xhale">Xhale Asia brings you</p>
                         <p class="best">
                             <span class="vio">The best in</span>
                             <span class="green">Yoga</span>
