@@ -109,7 +109,7 @@
 
         </div>
         <div class="col-sm-6">
-            <img src="img/new-img.jpg" alt="" class="img-responsive">
+            <img src="img/new-img.png" alt="" class="img-responsive">
         </div>
     </div>
     <div class="row">
