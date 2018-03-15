@@ -1,4 +1,4 @@
-<button class="btn btn-default float-btn">Register</button>
+<button class="btn btn-default float-btn">buy tickets</button>
 <footer>
     <div class="container">
         <div class="row">

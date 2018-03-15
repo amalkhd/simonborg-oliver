@@ -36,21 +36,12 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 four-block ">
-                            <div class="register text-center">
-                                <form action="">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Mobile">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                </form>
-                                <button type="submit" class="btn btn-default">Register Now</button>
-                            </div>
+                        <div class="col-sm-12 col-md-4 four-block text-center">
+                            <a href="https://www.eventbrite.com/e/2-days-12-hours-applied-yoga-synergy-training-with-simon-borg-olivier-tickets-43310484826?aff=es2"
+                                target="_blank" class="btn btn-default ticket">
+                                <span>buy tickets</span>
+                                <span>click here</span>
+                            </a>
                         </div>
                     </div>
 
@@ -118,7 +109,7 @@
 
         </div>
         <div class="col-sm-6">
-            <img src="img/cow-face.png" alt="" class="img-responsive">
+            <img src="img/new-img.jpg" alt="" class="img-responsive">
         </div>
     </div>
     <div class="row">

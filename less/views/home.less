@@ -5,7 +5,7 @@
   background-size: cover;
   height: 600px;
   @media (max-width: 767px) {
-    height: 950px;
+    height: 820px;
   }
 }
 .four-block {
@@ -71,57 +71,6 @@
       &:last-child {
         color: @black;
         margin-left: 10px;
-      }
-    }
-  }
-}
-
-.four-block {
-  .register {
-    position: relative;
-    @media (min-width: 768px) {
-      bottom: 20px;
-    }
-    .robo;
-    background-color: fade(@white, 40%);
-    padding: 20px;
-    @media (min-width: 992px) {
-      padding: 50px 20px;
-    }
-    margin: 0 30px;
-    .btn {
-      background-color: @btn-violet;
-      color: @white;
-      font-weight: 500;
-      font-size: 16px;
-      padding: 8px 20px;
-      border: none;
-      transition: all 0.2s ease;
-      @media (min-width: 992px) {
-        margin-top: 20px;
-      }
-      &:hover {
-        box-shadow: 0 0 10px fade(@btn-violet, 50%);
-        background-color: lighten(@btn-violet, 5%);
-      }
-    }
-    .form-group {
-      margin-bottom: 10px;
-      @media (min-width: 768px) and (max-width: 991px) {
-        width: 100%/3;
-        float: left;
-        padding-right: 10px;
-      }
-      .placeholder;
-      .form-control {
-        height: 40px;
-        border-radius: 6px;
-        border: none;
-        transition: all 0.3s ease;
-        box-shadow: 0 0 10px fade(@btn-violet, 0%);
-        &:focus {
-          box-shadow: 0 0 10px fade(@btn-violet, 50%);
-        }
       }
     }
   }
@@ -289,5 +238,33 @@
 .person-pad {
   @media (min-width: 992px) {
     padding: 0 !important;
+  }
+}
+
+.btn.btn-default.ticket {
+  @media (min-width: 992px) {
+    margin-top: 100px;
+  }
+  @media (max-width: 767px) {
+    margin-top: 20px;
+  }
+  .oswal;
+  .upper;
+  background-color: @btn-yellow;
+  padding: 8px 32px;
+  border: none;
+  box-shadow: 0 2px 5px #424242;
+  .transition(all 0.2s ease-in);
+  &:hover {
+    box-shadow: 0 4px 10px #424242;
+  }
+  span {
+    display: block;
+    font-size: 24px;
+    &:last-child {
+      font-size: 18px;
+      font-weight: 300;
+      font-size: 12px;
+    }
   }
 }
