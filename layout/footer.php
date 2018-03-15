@@ -70,6 +70,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="bower_components/imagesloaded/imagesloaded.js"></script>
 <!-- endbower -->
 </body>
-<script src="js/main.js"></script>
+<script src="js/main.min.js"></script>
 
 </html>

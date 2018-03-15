@@ -1,7 +1,13 @@
 $(document).ready(function() {
-  $(document).imagesLoaded(function() {
-    $(".pre-loader").fadeOut(1000);
-  });
+  $("body")
+    .imagesLoaded()
+    .always(function(instance) {})
+    .done(function(instance) {
+      $(".pre-loader").fadeOut(1000);
+    })
+    .fail(function() {
+      console.log("image is broken");
+    });
 
   $(window).scroll(function() {
     console.log($(window).scrollTop());
@@ -13,6 +19,11 @@ $(document).ready(function() {
   });
 
   $(".float-btn").click(function() {
-    $("html, body").animate({ scrollTop: 0 }, "slow");
+    $("html, body").animate(
+      {
+        scrollTop: 0
+      },
+      "slow"
+    );
   });
 });
